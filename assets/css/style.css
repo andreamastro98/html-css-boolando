@@ -1,3 +1,5 @@
+/* reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,11 @@
 img{
     display: inline-block;
 }
+
+
+
+
+/* utility */
 
 .flex{
     display: flex;
@@ -20,3 +27,81 @@ img{
     position: absolute;
 }
 
+.text-align-end{
+    text-align: end;
+}
+
+.span-display-block{
+    display: block;
+}
+
+.span-bold{
+    font-weight: bold;
+}
+
+.span-red{
+    color: red;
+}
+
+.span-line-through{
+    text-decoration: line-through;
+}
+
+/* header */
+
+header{
+    background-color: #FF6900;
+}
+
+.container{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    width: 17%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li, a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-right: 4px;
+}
+
+.nav-aside{
+    flex-basis: 30%;
+}
+
+.nav-center{
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.fa-user, .fa-heart, .fa-bag-shopping{
+    color: white;
+}
+
+
+
+/* main con card */
+
+section{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: calc(90% / 3);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.width-100{
+    width: 100%;
+}
