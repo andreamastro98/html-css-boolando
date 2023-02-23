@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-img{
-    display: inline-block;
-}
-
 
 
 
@@ -47,10 +43,19 @@ img{
     text-decoration: line-through;
 }
 
+main, footer{
+    padding: 20px 0;
+}
+
 /* header */
 
 header{
     background-color: #FF6900;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .container{
@@ -85,6 +90,7 @@ nav li, a{
 
 .fa-user, .fa-heart, .fa-bag-shopping{
     color: white;
+    margin: 0 3px;
 }
 
 
@@ -102,8 +108,9 @@ section{
     margin-bottom: 30px;
 }
 
-.width-100{
+.img-reset{
     width: 100%;
+    display: block;
 }
 
 .red-label{
@@ -124,17 +131,28 @@ section{
 }
 
 .heart{
-    padding: 8px 14px;
+    padding: 11px 13px;
     background-color: white;
+    color: black;
 }
 
 .position-heart{
     top: 5px;
     right: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.first-img{
+main .fa-heart{
+    margin: 0;
+}
+
+main .fa-heart:hover{
+    color: red;
+}
+
+
+
+/* .first-img{
 
 }
 
@@ -142,7 +160,7 @@ section{
     background: url(../img/1b.webp);
     background-repeat: no-repeat;
 }
-
+ */
 
 
 
@@ -176,8 +194,7 @@ footer li, a{
 
 footer h3, h4{
     color: white;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .container-footer{
@@ -186,3 +203,14 @@ footer h3, h4{
     margin: auto;
 }
 
+.img-b{
+    display: none;
+}
+
+.card-top:hover .img-a{
+    display: none;
+}
+
+.card-top:hover .img-b{
+    display: block;
+}
