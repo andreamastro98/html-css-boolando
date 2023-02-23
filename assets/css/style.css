@@ -105,3 +105,84 @@ section{
 .width-100{
     width: 100%;
 }
+
+.red-label{
+    background-color: red;
+    color: white;
+    padding: 4px 6px;
+}
+
+.green-label{
+    background-color: green;
+    color: white;
+    padding: 4px 6px;
+}
+
+.position-labels{
+    bottom: 50px;
+    left: 0px;
+}
+
+.heart{
+    padding: 8px 14px;
+    background-color: white;
+}
+
+.position-heart{
+    top: 5px;
+    right: 0;
+    font-size: 30px;
+}
+
+.first-img{
+
+}
+
+.first-img:hover{
+    background: url(../img/1b.webp);
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* footer utility */
+
+.footer-box-1{
+    flex-basis: 50%;
+}
+
+.footer-box-2{
+    flex-basis: 50%;
+    text-align: end;
+}
+
+footer{
+    background-color: #1A1A1A;
+    min-height: 100px;
+}
+
+.fa-brands{
+    color: white;
+}
+
+footer li, a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-right: 4px;
+}
+
+footer h3, h4{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.container-footer{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
